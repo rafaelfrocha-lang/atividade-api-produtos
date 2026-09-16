@@ -17,5 +17,25 @@ h1 {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
     padding: 20px;
-    width: 280px
+    width: 280px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #222;
+}
+
+.categoria {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Destaque visual para o preço */
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2ecc71;
+    margin-bottom: 0;
 }
