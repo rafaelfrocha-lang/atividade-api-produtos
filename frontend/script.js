@@ -1,5 +1,5 @@
 async function carregarDados() {
-    const url = "http://localhost:3000"; //Endereço da API
+    const url = "http://localhost:3000/"; //Endereço da API
 
     try {
         // Busca os dados da API de forma assíncrona
