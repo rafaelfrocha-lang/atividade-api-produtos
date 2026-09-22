@@ -11,11 +11,12 @@ app.use(express.json());
 
 // Rota que retorna o produto
 app.get('/', (req, res) => {
-    const produto = {
-        nome: "Teclado Mecânico RGB",
-        preco: 350.00,
-        categoria: "Periféricos"
-    };
+    const produto = [
+    { nome: "Teclado Mecânico RGB", preco: 350.00, categoria: "Periféricos" },
+    { nome: "Mouse Gamer", preco: 180.00, categoria: "Periféricos"},
+    { nome: "Monitor 144Hz", preco: 1200.00, categoria: "Monitores"},
+    { nome: "Headset", preco: 290.00, categoria: "Áudio"},
+    ];
     res.json(produto);
 });
 
