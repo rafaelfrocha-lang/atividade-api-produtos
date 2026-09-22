@@ -16,6 +16,7 @@ async function carregarDados() {
        produtos.forEach(produto => {
         container.innerHTML += `
              <div class="card">
+               <img src="${produto.imagem}" alt="${produto.nome}">
                   <h2>${produto.nome}</h2>
                   <p class="categoria">Categoria: <span>${produto.categoria}</span></p>
                   <p class="preco">R$ ${produto.preco.toFixed(2)}</p>
